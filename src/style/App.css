@@ -1,0 +1,30 @@
+
+.post-table .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+}
+
+.post .score {
+	flex: 0 0 50px;
+	display: block;
+	width: 75px;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 0;
+}
+
+.post .well {
+	flex: 1 1 100%;
+
+	display: flex;
+}
+
+.post:nth-child(2n+1) {
+	clear: left;
+	flex: 0 0 auto;
+}
